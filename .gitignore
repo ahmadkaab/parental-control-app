@@ -1,0 +1,23 @@
+# Ignore build artifacts and directories
+/build/
+*.exe
+*.dll
+
+# Ignore sensitive configuration
+/config.ini
+
+# Ignore log files and other runtime-generated data
+/log.txt
+/startup_log.txt
+/screenshot.png
+
+# Ignore CMake user files
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/CPackConfig.cmake
+/CPackSourceConfig.cmake
+
+# Ignore dependency build folders that might be created
+/cpr_repo/build/
+/cpr/build/
